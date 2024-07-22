@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Patterns\Patterns.csproj">
+      <Project>{4b37cb67-5963-4c9a-84b1-4a4a26fdcc13}</Project>
+      <Name>Patterns</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
