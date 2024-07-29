@@ -1,5 +1,9 @@
 ﻿namespace Patterns.SolidPrinciples
 {
+    /// <summary>
+    /// If you have an interface which includes too much stuff then just break it apart into 
+    /// smaller interfaces.
+    /// </summary>
     public class InterfaceSegregationPrinciple
     {
     }

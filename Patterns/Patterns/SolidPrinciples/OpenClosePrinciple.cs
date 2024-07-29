@@ -3,6 +3,10 @@ using System.Collections.Generic;
 
 namespace Patterns.SolidPrinciples
 {
+    /// <summary>
+    /// It states that part of the system should be open for extenstion but should be closed 
+    /// for addition.
+    /// </summary>
     public class OpenClosePrinciple
     {
         private static Product[] _products;

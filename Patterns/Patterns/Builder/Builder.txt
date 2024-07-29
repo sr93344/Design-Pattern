@@ -1,0 +1,12 @@
+﻿****Builder****
+1. Some objects are simple and can be created in constructor call.
+2. Other objects require a lot of ceremony to create.
+3. Having an object with 10 constructor argument is not productive.
+4. Instead opt for peicewise constructor.
+5. Builder provides an API for constructing an object step-by-step.
+
+Builder - When piecewise object construction is complicated, provide an API for doing it succinctly. 
+e.g., - HtmlBuilder.
+
+****FluentBuilder****
+using recursive generics we are returning most derived class. so that we can always access the inherited method.

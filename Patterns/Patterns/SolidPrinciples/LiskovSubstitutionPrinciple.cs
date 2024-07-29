@@ -2,6 +2,9 @@
 
 namespace Patterns.SolidPrinciples
 {
+    /// <summary>
+    /// You should be able to upcast to base type for a subtype.
+    /// </summary>
     public class LiskovSubstitutionPrinciple
     {
         public LiskovSubstitutionPrinciple() 

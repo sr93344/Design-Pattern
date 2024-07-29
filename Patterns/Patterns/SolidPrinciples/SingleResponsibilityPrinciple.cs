@@ -5,6 +5,9 @@ using System.IO;
 
 namespace Patterns
 {
+    /// <summary>
+    /// A typical class has one responsibility and has one reason to change.
+    /// </summary>
     public class SingleResponsibilityPrinciple
     {
         private static Journal _journal = new Journal();

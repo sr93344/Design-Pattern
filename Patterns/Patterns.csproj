@@ -41,12 +41,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SolidPrinciples\DependencyInversionPrinciple.cs" />
-    <Compile Include="SolidPrinciples\InterfaceSegregationPrinciple.cs" />
-    <Compile Include="SolidPrinciples\LiskovSubstitutionPrinciple.cs" />
-    <Compile Include="SolidPrinciples\OpenClosePrinciple.cs" />
-    <Compile Include="SolidPrinciples\SingleResponsibilityPrinciple.cs" />
+    <Compile Include="Patterns\Builder\BuilderPattern.cs" />
+    <Compile Include="Patterns\Builder\FacetedBuilder.cs" />
+    <Compile Include="Patterns\Builder\FluentBuilder.cs" />
+    <Compile Include="Patterns\Builder\FunctionalBuilder.cs" />
+    <Compile Include="Patterns\Builder\StepwiseBuilder.cs" />
+    <Compile Include="Patterns\SolidPrinciples\DependencyInversionPrinciple.cs" />
+    <Compile Include="Patterns\SolidPrinciples\InterfaceSegregationPrinciple.cs" />
+    <Compile Include="Patterns\SolidPrinciples\LiskovSubstitutionPrinciple.cs" />
+    <Compile Include="Patterns\SolidPrinciples\OpenClosePrinciple.cs" />
+    <Compile Include="Patterns\SolidPrinciples\SingleResponsibilityPrinciple.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Patterns\Builder\Builder.txt" />
+    <Content Include="Patterns\Theory\Gamma Categorization.txt" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

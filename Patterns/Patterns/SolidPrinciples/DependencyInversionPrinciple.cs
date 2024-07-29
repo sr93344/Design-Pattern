@@ -4,6 +4,9 @@ using System.Linq;
 
 namespace Patterns.SolidPrinciples
 {
+    /// <summary>
+    /// High level modules should not depend upon low-level ones.
+    /// </summary>
     public class DependencyInversionPrinciple
     {
         public DependencyInversionPrinciple() 
